@@ -61,21 +61,21 @@ There is also a very important file in the INCLUDE folder (the other files decla
 	
 	- variables.h: this file has the differents variables of the program, the defines, the global variables...
 
-*WORDS FILE*
+**WORDS FILE**
 The words that take the differents Users are stored in a txt file, this txt file its called "words.txt". If anyone delete this file or create a new file to store the words, he has to change the 
 #define WORDS_FILE with the number of the new file. In summary, the .txt that has the words must be in the #define WORDS_FILE, or the program will end when catching the error.
 
-*BOOKS*
+**BOOKS**
 The books where the SearchSystem is going to search each word has to be in the folder withe the MAKEFILE, or the program will not find it. The name of the .txt/book has to be in the global variable global_books.
 If the books do not meet these two conditions, the word will not be searched in them.
 
-*IMPORTANT DEFINES TO EDIT THE PROGRAM*
+**IMPORTANT DEFINES TO EDIT THE PROGRAM**
 There are two important defines in the variables.h file. These defines are:
 	- USER_AMOUNT: these are the number of users that will be created.
 	- SEARCH_SYSTEM_AMOUNT: these are the number of SearchSystems that will be created.
 If you want to have more or fewer users, edit the USER_AMOUNT define. The same with the SEARCH_SYSTEM, in this case, with the SEARCH_SYSTEM_AMOUNT define.
 
-*How to execute the program?*
+**How to execute the program?**
 We've created a Makefile in order to divide the program in diferents directories: src, exec, obj... And facilitate the compilation and execution of the program.
 
 The instructions of the make file are:
@@ -87,5 +87,5 @@ The instructions of the make file are:
 	4. If you want to clean all the dirs, just insert: make clean.
 
 *************************************************************************************************************************************************************************************************
-*								Practice made by: Juan Bautista Castaño García-Cervigón	& Alberto Mayorga Naranjo						*
+*								**Practice made by: Juan Bautista Castaño García-Cervigón	& Alberto Mayorga Naranjo**						*
 *************************************************************************************************************************************************************************************************
