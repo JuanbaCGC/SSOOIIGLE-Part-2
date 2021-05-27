@@ -87,5 +87,5 @@ The instructions of the make file are:
 	4. If you want to clean all the dirs, just insert: make clean.
 
 *************************************************************************************************************************************************************************************************
-*								**Practice made by: Juan Bautista Castaño García-Cervigón	& Alberto Mayorga Naranjo**						*
+*								Practice made by: Juan Bautista Castaño García-Cervigón	& Alberto Mayorga Naranjo						*
 *************************************************************************************************************************************************************************************************
